@@ -1,0 +1,39 @@
+{
+  "name": "tit-template",
+  "version": "1.0.0",
+  "description": "tit template project",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && tsc --build ./tsconfig.build.json",
+    "clean": "rm -rf ./dist/*",
+    "start-docker": "node ./dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./dist/app.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenjiasen/tit-template.git"
+  },
+  "keywords": [
+    "tit"
+  ],
+  "author": "Jason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wenjiasen/tit-template/issues"
+  },
+  "homepage": "https://github.com/wenjiasen/tit-template#readme",
+  "dependencies": {
+    "tit": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.16",
+    "@typescript-eslint/eslint-plugin": "^2.32.0",
+    "@typescript-eslint/parser": "^2.32.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "^1.19.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.7.2"
+  }
+}
