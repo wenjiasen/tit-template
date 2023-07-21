@@ -13,10 +13,9 @@ async function main() {
     app.logger.info(`listen ${app.config.port}...`);
   });
 
-  app.on('error', (e) => {
+  app.on("error", (e) => {
     console.error(e);
   });
-
 }
 
 main().catch((e) => {

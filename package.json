@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/wenjiasen/tit-template#readme",
   "dependencies": {
+    "mysql2": "^3.5.2",
     "tit": "^0.4.4"
   },
   "devDependencies": {

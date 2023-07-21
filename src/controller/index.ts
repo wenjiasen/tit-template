@@ -1,13 +1,13 @@
-import { IndexServer } from 'server';
-import { Controller, HttpMethod, PServer, Router, TitController } from 'tit';
+import { IndexServer } from "server";
+import { Controller, HttpMethod, PServer, Router, TitController } from "tit";
 
 @Controller({
-  prefix: '/api',
+  prefix: "/api",
 })
 export class IndexController extends TitController {
   @Router({
     method: HttpMethod.GET,
-    path: '/hello',
+    path: "/hello",
     middleware: [],
   })
   public async helloWord(@PServer(IndexServer) indexServer: IndexServer): Promise<void> {
