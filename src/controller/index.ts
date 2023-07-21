@@ -1,5 +1,5 @@
-import { IndexServer } from "server";
 import { Controller, HttpMethod, PServer, Router, TitController } from "tit";
+import { IndexServer } from "../server";
 
 @Controller({
   prefix: "/api",
