@@ -12,6 +12,7 @@
       "env": {
         "NODE_ENV": "development"
       },
+      "outputCapture": "std",
       "args": ["${workspaceFolder}/src/app.ts"]
     }
   ]
