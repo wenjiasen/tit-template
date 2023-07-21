@@ -23,16 +23,17 @@
   },
   "homepage": "https://github.com/wenjiasen/tit-template#readme",
   "dependencies": {
-    "tit": "^0.2.1"
+    "tit": "^0.4.4"
   },
   "devDependencies": {
-    "@types/node": "^10.17.16",
-    "@typescript-eslint/eslint-plugin": "^2.32.0",
-    "@typescript-eslint/parser": "^2.32.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.11.0",
-    "prettier": "^1.19.1",
-    "ts-node": "^9.0.0",
-    "typescript": "^3.7.2"
+    "@types/node": "^16.18.38",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^4.9.5"
   }
 }
